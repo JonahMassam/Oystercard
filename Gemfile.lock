@@ -17,13 +17,13 @@ GEM
     rspec-support (3.10.3)
 
 PLATFORMS
-  x86-mingw32
+  ruby
 
 DEPENDENCIES
   rspec
 
 RUBY VERSION
-   ruby 3.1.0p0
+   ruby 2.7.1p83
 
 BUNDLED WITH
-   2.3.3
+   2.1.4

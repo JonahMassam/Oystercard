@@ -1,11 +1,11 @@
+# frozen_string_literal: true
+
 source "https://rubygems.org"
 
-ruby '3.1.0'
+git_source(:github) {|oystercard| "https://github.com/#{oystercard}" }
 
-group :test do 
-  gem 'rspec'
-end
+ruby '2.7.1'
 
-group :development do
-  gem 'rspec'
+group :development, :test do
+  gem "rspec"
 end
